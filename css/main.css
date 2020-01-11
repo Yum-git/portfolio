@@ -41,6 +41,20 @@ body{
 
 #profile{
 	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#Production{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#Skill{
+	background-image: url(../img/back_2.jpg);
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .overlay{
@@ -130,6 +144,7 @@ body{
 }
 
 .skillbox{
+	background-color: #fff;
 	border: 2px solid #ddd;
 	box-sizing: border-box;
     width: 50%;
@@ -142,4 +157,3 @@ body{
 	font-size: large;
 	text-align: left;
 }
-
