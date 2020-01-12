@@ -46,6 +46,8 @@ body{
 }
 
 #Production{
+	background-image: url(../img/back_4.jpg);
+	background-size: cover;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -56,6 +58,13 @@ body{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+#access{
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 
 .overlay{
 	justify-content: center;
