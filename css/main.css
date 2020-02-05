@@ -29,7 +29,7 @@ body{
 .header{
 	height: 350px;
 	background-color: black;
-	/*background-image: url(../img/test.png);*/
+	background-image: url(../img/MacBack8.JPG);
 	background-size: cover;
 	background-position: top;
 	color: #fff;
@@ -181,4 +181,14 @@ body{
 .leftsort{
 	font-size: large;
 	text-align: left;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 }
