@@ -154,11 +154,25 @@ body{
 	display: flex;
 }
 
-.skillbox{
+.BoxThreeDiv{
+	display: flex;
+}
+
+.Boxhalf .skillbox{
 	background-color: #fff;
 	border: 2px solid #ddd;
 	box-sizing: border-box;
     width: 50%;
+    float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+.BoxThreeDiv .skillbox{
+	background-color: #fff;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+    width: 33%;
     float: left;
 	padding: 10px;
 	text-align: center;
