@@ -166,6 +166,10 @@ body{
 	display: flex;
 }
 
+.BoxFourDiv{
+	display: flex;
+}
+
 .Boxhalf .skillbox{
 	background-color: #fff;
 	border: 2px solid #ddd;
@@ -181,6 +185,16 @@ body{
 	border: 2px solid #ddd;
 	box-sizing: border-box;
     width: 33%;
+    float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+.BoxFourDiv .skillbox{
+	background-color: #fff;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+    width: 25%;
     float: left;
 	padding: 10px;
 	text-align: center;
