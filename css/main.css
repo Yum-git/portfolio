@@ -121,16 +121,17 @@ body{
 }
 
 .nav-main{
+	background-color: #fff;
 	align-items: center;
 	text-align: center;
 	width: 100%;
 	z-index: 100;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 }
 
 .nav-tables{
 	list-style: none;
 	text-align: center;
-	background-color: #fff;
 	padding-inline-start: 0px;
 	margin-block-start: .6em;
 	margin-block-end: .6em;
@@ -213,4 +214,10 @@ img {
 	-webkit-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
