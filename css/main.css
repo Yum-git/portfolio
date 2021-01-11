@@ -126,7 +126,6 @@ body{
 	text-align: center;
 	width: 100%;
 	z-index: 100;
-	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 }
 
 .nav-tables{
@@ -141,7 +140,6 @@ body{
 	font: 400 40px Myfont;
 	text-decoration: none;
 	display: inline-block;
-	width: 90px;
 	padding: 5px 10px;
 	border-radius: 5px;
 }
@@ -175,10 +173,11 @@ body{
 	background-color: #fff;
 	border: 2px solid #ddd;
 	box-sizing: border-box;
-    width: 50%;
+	width: 50%;
     float: left;
 	padding: 10px;
 	text-align: center;
+	flex-direction: column;
 }
 
 .BoxThreeDiv .skillbox{
@@ -219,5 +218,22 @@ img {
 .fixed {
     position: fixed;
     top: 0;
-    z-index: 1;
+	z-index: 1;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.TextBox{
+	height: auto;
+}
+
+.PictureBox{
+	height: 500px;
+}
+
+.PictureBox img{
+	height: 100%;
+}
+
+.techbox{
+	margin-top:auto
 }
